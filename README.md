@@ -12,6 +12,14 @@ $ curl -i -X GET http://localhost:8080/caelum-books-payfast/payment/1 -H "Accept
 You will see a result as below:
 
 ```xml
+HTTP/1.1 200 OK
+Connection: keep-alive
+X-Powered-By: Undertow/1
+Server: WildFly/8
+Transfer-Encoding: chunked
+Content-Type: application/json
+Date: Sun, 01 Nov 2015 12:52:09 GMT
+
 <payment>
   <id>1</id>
   <status>APROVED</status>
