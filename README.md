@@ -6,7 +6,7 @@ Simple Payment System to teach about RESTful applications at Caelum - SOA Course
 You can you **curl** command to retrieve some payment from its id code:
 
 ```bash
-$ curl -i -X GET http://localhost:8080/caelum-books-payfast/payment/1 -H "Accept: application/xml"
+$ curl -i -X GET http://localhost:8080/caelum-books-payfast/payments/1 -H "Accept: application/xml"
 ```
 
 You will see a result as below:
@@ -31,7 +31,7 @@ Take care with Accept header! If the endpoint can't retrieve json for example, y
 To test, just change to application/json on Accept header:
 
 ```bash
-$ curl -i -X GET http://localhost:8080/caelum-books-payfast/payment/1 -H "Accept: application/json"
+$ curl -i -X GET http://localhost:8080/caelum-books-payfast/payments/1 -H "Accept: application/json"
 ```
 
 And you will see a result as below:
@@ -69,3 +69,13 @@ Calling payment endpoint with **json** Accept header will return this:
 ```
 
 Note that with json we can se **data** but with xml wen can't
+
+
+### Create a new Payment
+
+You can sen a POST method with json or xml to create a new Payment.
+
+```bash
+$ curl -i -X POST http://localhost:8080/caelum-books-payfast/payments -d "<payment><status>PENDING</status><value>600</value></payment>" -H "Content-Type: application/xml"
+```
+
