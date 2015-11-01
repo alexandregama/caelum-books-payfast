@@ -79,3 +79,15 @@ You can sen a POST method with json or xml to create a new Payment.
 $ curl -i -X POST http://localhost:8080/caelum-books-payfast/payments -d "<payment><status>PENDING</status><value>600</value></payment>" -H "Content-Type: application/xml"
 ```
 
+And the return will be:
+
+```bash
+HTTP/1.1 201 Created
+Connection: keep-alive
+X-Powered-By: Undertow/1
+Server: WildFly/8
+Location: http://localhost:8080/caelum-books-payfast/payments/6
+Content-Length: 0
+Date: Sun, 01 Nov 2015 13:06:03 GMT
+```
+
