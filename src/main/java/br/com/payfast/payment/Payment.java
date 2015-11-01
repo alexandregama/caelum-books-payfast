@@ -43,5 +43,10 @@ public class Payment {
 	public void setStatus(PaymentStatus status) {
 		this.status = status;
 	}
+
+	@Override
+	public String toString() {
+		return "Payment [id=" + id + ", value=" + value + ", status=" + status + "]";
+	}
 	
 }
