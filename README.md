@@ -96,14 +96,19 @@ Date: Sun, 01 Nov 2015 13:06:03 GMT
 **SUCCESS 2xx**
 
 200 - Ok
+
 201 - Created
+
 202 - Accepted (but the processing has not been completed)
+
 203 - Partial Information
+
 204 - No Response
 
 **REDIRECTION 3xx**
 
 301 - Moved
+
 304 - Not Modified
 
 **ERROR 4xx**
@@ -113,6 +118,7 @@ Date: Sun, 01 Nov 2015 13:06:03 GMT
 401 - Unauthorized
 
 403 - Forbidden
+
 404 - Not Found
 
 **INTERNAL ERROR 5xx**
