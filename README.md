@@ -124,7 +124,10 @@ Date: Sun, 01 Nov 2015 13:06:03 GMT
 **INTERNAL ERROR 5xx**
 
 500 - Internal Error
+
 501 - Not Implemented
+
 502 - Service Temporaly Overloaded
+
 503 - Gateway Timeout
 
