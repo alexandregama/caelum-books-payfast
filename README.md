@@ -121,6 +121,8 @@ Date: Sun, 01 Nov 2015 13:06:03 GMT
 
 404 - Not Found
 
+405 - Method not Allowed
+
 **INTERNAL ERROR 5xx**
 
 500 - Internal Error
