@@ -109,7 +109,9 @@ Date: Sun, 01 Nov 2015 13:06:03 GMT
 **ERROR 4xx**
 
 400 - Bad Request
+
 401 - Unauthorized
+
 403 - Forbidden
 404 - Not Found
 
